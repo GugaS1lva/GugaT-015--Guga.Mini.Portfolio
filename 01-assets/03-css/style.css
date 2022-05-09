@@ -1,0 +1,186 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15x;
+}
+
+.my-name, h2, p{
+    display: flex;
+    align-items: center;
+    margin: 10px 20px;
+}
+
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+}
+h2 span{
+    background-color: #0050FF;
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+}
+
+p{
+    font-size: 1.2rem;
+}
+
+nav ul{
+    display: flex;
+    margin-right: 20px;
+}
+nav ul li a{
+    text-transform: uppercase;
+    padding: 10px 16px;
+    border: 2px solid white;
+    color: black;
+}
+nav ul li a:hover{
+    color: #0050FF;
+    font-weight: bold;
+    border: 2px solid #0050FF;
+    border-radius: 50px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../01-image/wallpaper005.jpg) center center no-repeat;
+}
+.container{
+    display: flex;
+    border: solid 1px black;
+    border-radius: 15px;
+    box-shadow: -15px 20px 20px rgba(0, 0, 0, 0.178);
+    margin: 100px 0 250px;
+}
+
+.social{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F4ECE6;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.social img{
+    width: 200px;
+    border-radius: 100px;
+    margin: 50px;
+}
+.social .name-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -200px;
+}
+.social .name-container h2{
+    font-family: 'Quicksand', sans-serif;
+}
+.social .name-container hr{
+    width: 190px;
+    border: none;
+    border-bottom: solid 2px #0050FF;
+}
+.social .name-container p{
+    margin-top: 20px;
+    font-size: 1rem;
+}
+.social footer{
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    padding: 15px 0;
+    border-bottom-left-radius: 15px;
+}
+.social footer a{
+    font-size: 1.5rem;
+    margin: 15px;
+    color: black;
+}
+.social footer a:hover{
+    color: #0050FF;
+}
+
+.contents{
+    width: 350px;
+    padding: 30px;
+}
+.contents h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 6rem;
+}
+.contents h3{
+    width: 280px;
+    font-size: 1.5rem;
+}
+.contents .button-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0 40px 0;
+}
+.contents .button-container button{
+    font-family: 'Quicksand', sans-serif;
+    padding: 10px 16px;
+    border: 2px solid black;
+    font-weight: bold;
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+    width: 150px;
+}
+.contents .button-container button:hover{
+    transition: 0.2s ease-in-out;
+    background-color: #0050FF;
+    border: 2px solid #0050FF;
+    color: white;
+    cursor: pointer;
+}
+#checked{
+    background-color: #0050FF;
+    border: 2px solid #0050FF;
+    color: white;
+}
+#checked:hover{
+    transition: 0.2s ease-in-out;
+    background-color: white;
+    color: #0050FF;
+    cursor: pointer;
+}
+.contents p{
+    margin: 0;
+}
+
+
+.final-credits{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -120px;
+}
+.final-credits .copyright p{
+    font-size: 0.8rem;
+}
+.final-credits .contact ul{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.final-credits .contact ul li{
+    margin: 30px;
+}
+.final-credits .contact ul li a{
+    color: black;
+}
+.final-credits .contact ul li a:hover{
+    color: #0050FF;
+}
+.final-credits .contact ul li a i{
+    font-size: 1.5rem;
+    margin: 5px;
+}
