@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+/* font-family: 'Quicksand', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    /* Estiliza o Scroll Lento */
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+
+header, .index-container, ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0px;
+}
+.index-container, h1, p{
+    display: flex;
+    align-items: center;
+    margin: 10px 20px;
+}
+span{
+    display: block;
+    background-color: #0050FF;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.index-container h1{
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+.index-container p{
+    font-size: 1.2rem;
+}
+nav ul{
+    list-style: none;
+    padding: 7px 33px;
+    margin-left: 4px;
+}
+nav ul li:hover{
+    color: #0050FF;
+    border: 2px solid #0050FF;
+    border-radius: 50px;
+    border: 2px solid #0050FF;
+    font-weight: bold;
+}
+nav ul a{
+    text-decoration: none;
+    color: black;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url(src/wallpaper005.jpg) no-repeat center center;
+    margin-bottom: -42px;
+}
+section{
+    display: flex;
+    margin: 100px;
+    border: 1px solid black;
+    border-radius: 15px;
+    
+}
+
+
+.left-article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F4ECE6;
+    width: 320px;
+    box-shadow: -15px 20px 20px rgba(0, 0, 0, 0.178);
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.left-article img{
+    margin: 40px 0px 20px 0px;
+    width: 70%;
+    border-radius: 500px;
+}
+.left-article .name-container{
+    display: inline-block;
+    font-size: 1.5rem;
+    border-bottom: 2px solid #0050FF;
+}
+.left-article p{
+    margin: 20px 0px;
+}
+.left-article footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+    padding: 20px 0px;
+    margin-top: 120px;
+    border-bottom-left-radius: 15px;
+}
+footer i{
+    font-size: 1.5rem;
+    margin: 0px 20px;
+}
+footer i:hover{
+    color: #0050FF;
+}
+footer a{
+    color: black;
+    text-decoration: none;
+}
+footer a:visited{
+    color: black;
+}
+
+
+
+.right-article{
+    width: 300px;
+    padding: 30px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+    
+}
+.right-article h1{
+    font-size: 6rem;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+.button-container{
+    display: flex;
+    justify-content: space-between;
+}
+.button-container button{
+    background-color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bolder;
+    font-size: 0.9rem;
+    padding: 7px 33px;
+    border-radius: 50px;
+    border: 2px solid black;
+    margin: 25px 0px;
+}
+.button-container button:hover{
+    background-color: #0050FF;
+    color: white;
+    transition-duration: 0.3s;
+    border: 2px solid #0050FF;
+    cursor: pointer;
+}
+#checked{
+    background-color: #0050FF;
+    color: white;
+    transition-duration: 0.3s;
+    border: #0050FF;
+    border: 2px solid #0050FF;
+}
+#checked:hover{
+    background-color: white;
+    color: #0050FF;
+    border: 2px solid #0050FF;
+}
+.right-article p{
+    margin: 10px 0px;
+}
+
+
+
+footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .copyright{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+footer .copyright p{
+    font-size: 0.8rem;
+    margin: 2px 30px;
+}
+footer .contact ul li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    margin: 0px 25px;
+}
+footer .contact ul li h3{
+    font-size: 1rem;
+}
+footer .contact ul li a:hover{
+    color: #0050FF;
+}
+footer .contact ul li div i{
+    margin: 6px;
+}
+footer .contact ul li div a i{
+    font-size: 1.3rem;
+}
